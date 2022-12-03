@@ -1,0 +1,42 @@
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 100%;
+    line-height: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{ /*không muốn sử dụng width 1200px */
+    width: 100%;
+
+}
+.grid__row{ /*những thẻ nằm trong class này sẽ nằm trên một hàng ngang*/
+    display: flex; /*trục main axit nằm ngang */
+    flex-wrap: wrap; /*để cho những thằng con có tổng độ dài vượt quá thẻ class này sẽ xuống hàng*/
+    margin-left: -5px;
+    margin-right: -5px;
+    
+
+}
+.grid__column-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    width:100%;
+
+}
+.grid__column-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+
+}

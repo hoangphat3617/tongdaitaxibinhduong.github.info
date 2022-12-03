@@ -1,0 +1,278 @@
+/*reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    background-color: #ccc;
+    height: 60px;
+    z-index: 1;
+    
+}
+.nav {
+    height: 90px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.nav img{
+    width: 160px;
+    height: 90px;
+    display: inline-block;
+    margin: 0 50px;
+}
+.nav ul{
+    margin-right: 20px;
+}
+.nav li {
+    
+    display: inline-block;
+}
+.nav li a{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 20px; 
+    line-height: 90px;
+}
+
+.nav li:hover a {
+    background-color: #3333ff;
+    color: #fff;
+    
+}
+/*css cho menu-icon*/
+.menu-icon i{
+    font-size: 40px;
+    line-height: 90px;
+    padding: 0 30px;
+    display: none;
+}
+.menu-icon:hover i{
+    background-color: cadetblue;
+    color: #fff;
+
+
+}
+
+/*slider-image*/
+
+.container{
+    width: 1200px;
+    
+}
+
+/*phàn content image*/
+.content__image{
+    display: flex;
+    justify-content:center ;
+
+}
+.content__image img{
+    margin-top: 90px;
+    height: 300px;
+}
+
+/*tổng đài*/
+.header__heading{
+    
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.heading{
+   
+    padding: 20px 0;
+    
+}
+.heading h1 {
+   color: red;
+   margin: 10px;
+   text-align: center;
+}
+.heading p {
+    line-height: 20px;
+    text-align: center;
+}
+.heading-p {
+    color: #008000;
+    font-size: 20px;
+    padding: 5px;
+}
+.heading-p-sdt{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.heading-p-sdt a{
+    color: red;
+    text-decoration: none;
+}
+.heading-img{
+    text-align: center;
+
+}
+
+.hotline-tel {
+    width: 200px;
+    
+}
+
+/*table tạo bảng giá*/
+.table-list{
+    text-align: center;
+    padding: 20px;
+}
+
+.table-list-item{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+    
+
+}
+.table-list h6{
+    font-size: 15px;
+    padding: 10px;
+}
+.tab-cell td{
+    padding: 5px 40px;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+    
+}
+/*dịch vụ của chungd tôi*/
+.title{
+    width: 800PX;
+    margin: 0 auto;
+    
+    
+}
+
+.title h5{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-shadow: 3px 3px 2px #333;
+}
+/*taxi 4 chô*/
+.tab{
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    box-shadow: 4px 6px 5px #333;
+}
+.tab img{
+    width: 180px;
+}
+
+.tab-cell{
+    text-align: center;
+    padding: 8px ;
+}
+.tab-cell a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.tab-cell img{
+    width: 130px;
+}
+/*thông tin liên hệ*/
+.contact-lh-p{
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+}
+.hotline-lh{
+    padding: 5px;
+    font-size: 20px;
+}
+.hotline-lh i, span{
+    color: #333;
+    margin-left: 10px;
+}
+.hotline-lh a{
+    text-decoration: none;
+}
+/*phần Car dịch vụ*/
+.footer {
+    display: flex;
+    background-color: #ccc;
+}
+.footer__list{
+    width: 33.3334%;
+    margin: 20px;
+    float: left;
+    line-height: 20px;
+    
+}
+.footer__item{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer__item span{
+    color: #3333ff;
+}
+.footer__item-link{
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer__list li{
+    list-style: none;
+    margin: 10px 0;
+}
+.footer__list a{
+    text-decoration: none;
+}
+.footer__list i{
+   color: red;
+   padding: 0 10px 0 0;
+}
+/*end*/
+.end{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    
+    height:40px ;
+}
+.end p{
+    font-size: 15px;
+    color: #ccc;
+    line-height: 40px;
+}
+.end i{
+    padding: 0 8px;
+}
+/*phần hotline và zalo*/
+.zalo-call{
+    position: fixed;
+    z-index: 1;
+    bottom: 10px;
+    right:0;
+    
+}
+.call img{
+    width: 110px;
+    margin: 10px;
+
+}
+.zalo img{
+    width: 70px;
+    margin-left: 30px;
+    
+}
+
+
